@@ -26,6 +26,9 @@
   .file-icon-box { font-size: 15px; flex-shrink: 0; }
   .file-info { flex: 1; min-width: 0; }
   .file-name { font-size: 11px; font-weight: 600; color: #1a1a2e; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; direction: ltr; text-align: right; }
+  /* --- الإضافة المفقودة: تنسيق أوصاف الملفات --- */
+  .file-desc-ar { font-size: 10px; color: #555; margin-top: 2px; line-height: 1.4; }
+  .file-desc-en { font-size: 9px; color: #999; margin-top: 1px; line-height: 1.3; direction: ltr; text-align: right; }
   .file-tag  { font-size: 9px; padding: 1px 6px; border-radius: 8px; display: inline-block; margin-top: 3px; }
   .b-joda  .branch-head { background: #653165; }
   .b-joda  .file-card.highlight { border-color: #653165; }
