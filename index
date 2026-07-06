@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QA-CSM Drive Roadmap</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f7fb; direction: rtl; min-height: 100vh; }
+
+ .page-header { background: #653165; color: #fff; text-align: center; padding: 22px 24px 16px; border-bottom: 4px solid #00A4A6; position: sticky; top: 0; z-index: 100; }
+  .page-header h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  .page-header p  { font-size: 12px; opacity: .75; }
+  .map-wrap { width: 100%; max-width: 900px; margin: 32px auto; padding: 0 16px; }
+  .branches { display: flex; justify-content: center; gap: 24px; }
+  .branch-zone { width: 100%; max-width: 420px; }
+  .branch-zone { background: #fff; border-radius: 14px; border: 0.5px solid #e0dde8; overflow: hidden; }
+  .branch-head { padding: 10px 14px; color: #fff; display: flex; align-items: center; gap: 8px; }
+  .branch-head .icon  { font-size: 15px; }
+  .branch-head .label { font-size: 13px; font-weight: 700; }
+  .branch-head .count { font-size: 10px; opacity: .75; margin-right: auto; background: rgba(255,255,255,.2); padding: 2px 7px; border-radius: 10px; }
+  .branch-files { padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; }
+  .file-card { border-radius: 8px; padding: 8px 11px; border: 0.5px solid #e0dde8; background: #fafafa; display: flex; align-items: center; gap: 9px; text-decoration: none; transition: background .15s, border-color .15s; }
+  .file-card:hover { background: #f0f0f0; border-color: #bbb; }
+  .file-card.highlight { border-width: 1.5px; background: #fff; }
+  .file-icon-box { font-size: 15px; flex-shrink: 0; }
+  .file-info { flex: 1; min-width: 0; }
+  .file-name { font-size: 11px; font-weight: 600; color: #1a1a2e; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; direction: ltr; text-align: right; }
+  .file-tag  { font-size: 9px; padding: 1px 6px; border-radius: 8px; display: inline-block; margin-top: 3px; }
+  .b-joda  .branch-head { background: #653165; }
+  .b-joda  .file-card.highlight { border-color: #653165; }
+  .b-joda  .ft { background: #EFE5EF; color: #653165; }
+  .b-acad  .branch-head { background: #00838F; }
+  .b-acad  .file-card.highlight { border-color: #00A4A6; }
+  .b-acad  .ft { background: #D9F2F2; color: #005F60; }
+  .b-calls .branch-head { background: #444; }
+  .b-calls .file-card.highlight { border-color: #00A4A6; }
+  .b-calls .ft       { background: #D9F2F2; color: #005F60; }
+  .b-calls .ft.gray  { background: #f0f0f0; color: #555; }
+  .b-cases .branch-head { background: #BA7517; }
+  .b-cases .file-card.highlight { border-color: #EF9F27; }
+  .b-cases .ft { background: #FAEEDA; color: #633806; }
+  .b-profitt .branch-head { background: #1565C0; }
+  .b-profitt .file-card.highlight { border-color: #1976D2; }
+  .b-profitt .ft { background: #DDEEFF; color: #0D3C7A; }
+  .b-other .branch-head { background: #4A5568; }
+  .b-other .file-card.highlight { border-color: #718096; }
+  .b-other .ft { background: #EDF2F7; color: #2D3748; }
+  .page-footer { text-align: center; padding: 20px 16px 32px; font-size: 11px; color: #888; border-top: 0.5px solid #ddd; margin-top: 24px; line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="page-header">
+  <h1>QA-CSM Agent Academy Roadmap</h1>
+  <p> اكاديمية موظف نجاح العملاء </p>
+</div>
+<div class="map-wrap">
+
+  <div class="branches">
+
+    <!-- أكاديمية -->
+    <div class="branch-zone b-acad">
+      <div class="branch-head">
+        <span class="icon">🎓</span>
+        <span class="label">أكاديمية</span>
+        <span class="count">5 ملفات</span>
+      </div>
+      <div class="branch-files">
+        <a class="file-card highlight" href="https://fyousef-2023.github.io/csm-academy/#phone-tip" target="_blank">
+          <div class="file-icon-box">🌐</div>
+          <div class="file-info"><div class="file-name">CSM Academy V.2 — Web</div><span class="file-tag ft">صفحة ويب</span></div>
+        </a>
+        <a class="file-card" href="https://fyousef-2023.github.io/CSM_Stages/" target="_blank">
+          <div class="file-icon-box">🌐</div>
+          <div class="file-info"><div class="file-name">CSM_Stages</div><span class="file-tag ft">صفحة ويب</span></div>
+        </a>
+        <a class="file-card" href="https://fyousef-2023.github.io/-CSM-Call-Checklist/csm_call_checklist.html" target="_blank">
+          <div class="file-icon-box">📋</div>
+          <div class="file-info"><div class="file-name"> CSM Call Checklist</div><span class="file-tag ft">صفحة ويب</span></div>
+        </a>
+        <a class="file-card" href="https://fyousef-2023.github.io/Grubtech_CSM_Guide/" target="_blank">
+          <div class="file-icon-box">🌐</div>
+          <div class="file-info"><div class="file-name">Grubtech_CSM_Guide</div><span class="file-tag ft">صفحة ويب</span></div>
+        </a>
+        <a class="file-card" href="https://docs.google.com/spreadsheets/d/1co1QpR4CCnTBJvsDttQUQs3B9I8LPxhgxUzYT35Ev8U/edit?gid=1234721006#gid=1234721006" target="_blank">
+          <div class="file-icon-box">🎓</div>
+          <div class="file-info"><div class="file-name">CSM_Academy</div><span class="file-tag ft">xlsx · مرجع تدريبي</span></div>
+        </a>
+       
+      </div>
+    </div>
+
+  </div>
+
+  <div class="page-footer">
+    إعداد: قسم الجودة — فريق نجاح العملاء &nbsp;|&nbsp; رِواء &nbsp;|&nbsp; النسخة 1.0<br>
+    QA – CSM &nbsp;|&nbsp; Rewaa
+  </div>
+
+</div>
+</body>
+</html>
