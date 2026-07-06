@@ -51,8 +51,8 @@
 </head>
 <body>
 <div class="page-header">
-  <h1>QA-CSM Agent Academy Roadmap</h1>
-  <p> اكاديمية موظف نجاح العملاء </p>
+  <h1>QA-Renewal Agent Academy Roadmap</h1>
+  <p> اكاديمية موظف التجديد </p>
 </div>
 <div class="map-wrap">
 
@@ -63,38 +63,47 @@
       <div class="branch-head">
         <span class="icon">🎓</span>
         <span class="label">أكاديمية</span>
-        <span class="count">5 ملفات</span>
+        <span class="count">3 ملفات</span>
       </div>
       <div class="branch-files">
-        <a class="file-card highlight" href="https://fyousef-2023.github.io/csm-academy/#phone-tip" target="_blank">
+
+        <a class="file-card highlight" href="https://fyousef-2023.github.io/Renewal-Stages-Guide/" target="_blank">
           <div class="file-icon-box">🌐</div>
-          <div class="file-info"><div class="file-name">CSM Academy V.2 — Web</div><span class="file-tag ft">صفحة ويب</span></div>
+          <div class="file-info">
+            <div class="file-name">Renewal Stages Guide</div>
+            <div class="file-desc-ar">دليل مراحل التجديد — إجراءات كل مرحلة والتصعيد والاعتراضات</div>
+            <div class="file-desc-en">Renewal stages guide — actions, escalation & objections per stage</div>
+            <span class="file-tag ft">صفحة ويب</span>
+          </div>
         </a>
-        <a class="file-card" href="https://fyousef-2023.github.io/CSM_Stages/" target="_blank">
-          <div class="file-icon-box">🌐</div>
-          <div class="file-info"><div class="file-name">CSM_Stages</div><span class="file-tag ft">صفحة ويب</span></div>
-        </a>
-        <a class="file-card" href="https://fyousef-2023.github.io/-CSM-Call-Checklist/csm_call_checklist.html" target="_blank">
+
+        <a class="file-card" href="https://fyousef-2023.github.io/Renewal-Call-Checklist/" target="_blank">
           <div class="file-icon-box">📋</div>
-          <div class="file-info"><div class="file-name"> CSM Call Checklist</div><span class="file-tag ft">صفحة ويب</span></div>
+          <div class="file-info">
+            <div class="file-name">Renewal Call Checklist</div>
+            <div class="file-desc-ar">قائمة مراجعة مكالمات التجديد التفاعلية — تابات لكل مرحلة</div>
+            <div class="file-desc-en">Interactive renewal call checklist — tabs per stage with tags</div>
+            <span class="file-tag ft">صفحة ويب</span>
+          </div>
         </a>
-        <a class="file-card" href="https://fyousef-2023.github.io/Grubtech_CSM_Guide/" target="_blank">
-          <div class="file-icon-box">🌐</div>
-          <div class="file-info"><div class="file-name">Grubtech_CSM_Guide</div><span class="file-tag ft">صفحة ويب</span></div>
+ <a class="file-card highlight" href="https://docs.google.com/spreadsheets/d/1nc_N45MFBVH5mrftfmo-hX-_aZJJGdU5X0KhOWHg3Bg/edit?gid=1382667562#gid=1382667562&range=A1" target="_blank">
+          <div class="file-icon-box">💰</div>
+          <div class="file-info">
+            <div class="file-name">Renewal_Pricing_Plans</div>
+            <div class="file-desc-ar">أسعار باقات التجديد — مرجع الموظف أثناء المكالمة</div>
+            <div class="file-desc-en">Renewal package pricing reference for agents during calls</div>
+            <span class="file-tag ft">xlsx · أسعار الباقات</span>
+          </div>
         </a>
-        <a class="file-card" href="https://docs.google.com/spreadsheets/d/1co1QpR4CCnTBJvsDttQUQs3B9I8LPxhgxUzYT35Ev8U/edit?gid=1234721006#gid=1234721006" target="_blank">
-          <div class="file-icon-box">🎓</div>
-          <div class="file-info"><div class="file-name">CSM_Academy</div><span class="file-tag ft">xlsx · مرجع تدريبي</span></div>
-        </a>
-       
       </div>
     </div>
+    
 
   </div>
 
   <div class="page-footer">
-    إعداد: قسم الجودة — فريق نجاح العملاء &nbsp;|&nbsp; رِواء &nbsp;|&nbsp; النسخة 1.0<br>
-    QA – CSM &nbsp;|&nbsp; Rewaa
+    إعداد: قسم الجودة — فريق التجديد &nbsp;|&nbsp; رِواء &nbsp;|&nbsp; النسخة 1.0<br>
+    QA – Renewal &nbsp;|&nbsp; Rewaa
   </div>
 
 </div>
